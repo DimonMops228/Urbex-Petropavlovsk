@@ -306,3 +306,35 @@ footer {
 .contacts a:hover {
     color: white;
 }
+
+.seo-text {
+    width: 1000px;
+    margin: 25px auto 0;
+    padding: 25px;
+
+    background: linear-gradient(
+        180deg,
+        rgba(28,18,12,0.96),
+        rgba(8,8,8,0.96)
+    );
+
+    border: 1px solid #6b3f1d;
+    color: #d8c6a3;
+    line-height: 1.7;
+}
+
+.seo-text h2 {
+    color: #d99535;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.seo-text p {
+    margin-bottom: 12px;
+}
+
+@media (max-width: 1050px) {
+    .seo-text {
+        width: 95%;
+    }
+}
