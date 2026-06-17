@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заброшки Петропавловска</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+
+    <div class="logo-box">
+        <img src="images/logo.png" alt="Логотип" class="logo">
+    </div>
+
+    <nav class="main-menu">
+    <a href="index.html">Объекты</a>
+    <a href="#">Фото</a>
+    <a href="#">Архив</a>
+    <a href="https://t.me/MopsPugJopa" target="_blank">Связь</a>
+</nav>
+
+</header>
+
+<section class="categories">
+    <button onclick="filterObjects('all')">
+        все<br>
+        <span>(2)</span>
+    </button>
+
+    <button onclick="filterObjects('factory')">
+        заводы<br>
+        <span>(1)</span>
+    </button>
+
+    <button onclick="filterObjects('institution')">
+        учреждения<br>
+        <span>(1)</span>
+    </button>
+
+    <button onclick="filterObjects('underground')">
+        подземное<br>
+        <span>(0)</span>
+    </button>
+
+    <button onclick="filterObjects('other')">
+        остальное<br>
+        <span>(0)</span>
+    </button>
+</section>
+
+<main class="layout">
+
+    <section class="content">
+
+        <h2 class="section-title">Объекты</h2>
+
+        <div class="object-list">
+
+            <div class="card" data-category="institution">
+                <a href="sevniij.html">
+                    <img src="images/sevniij.jpg" alt="СевНИИЖ">
+
+                    <div class="card-info">
+                        <h3>СевНИИЖ</h3>
+                        <p>Законсервированный объект в Бишкуле.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card" data-category="factory">
+                <a href="izolit.html">
+                    <img src="images/izolit.jpg" alt="Изолит">
+
+                    <div class="card-info">
+                        <h3>Изолит</h3>
+                        <p>Заброшенный объект.</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div class="contacts">
+    <h3>Связь с администрацией</h3>
+
+    <p>
+        Есть фотографии заброшек, бомбоубежищ, подземных объектов или интересная информация?
+    </p>
+
+    <p>
+        Присылайте материалы в Telegram:
+    </p>
+
+    <a href="https://t.me/MopsPugJopa" target="_blank">
+        @MopsPugJopa
+    </a>
+</div>
+
+  
+<footer>
+    <p>© 2026 Urbex Petropavlovsk</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
